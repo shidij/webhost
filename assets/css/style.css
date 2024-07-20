@@ -53,6 +53,11 @@
     hsl(45, 100%, 72%), 
     hsl(35, 100%, 68%)
   );
+  --bg-gradient-more: linear-gradient(
+    to right, 
+    hsl(100, 100%, 0%), 
+    hsl(100, 0%, 0%)
+  );
 
   /* solid */
 
@@ -68,7 +73,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
-
+  --red: hsla(100%, 100%, 100%, 0.7);
   /**
    * typography
    */
@@ -387,7 +392,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: var(--red);
   transition: var(--transition-1);
   z-index: -1;
 }
